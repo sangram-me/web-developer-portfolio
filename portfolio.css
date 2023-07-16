@@ -114,6 +114,10 @@ main {
        margin: 0 auto;
 }
 
+main section {
+       margin-top: 130px;
+}
+
 .banner-description {
        color: var(--dark-03, #757575);
        font-size: 18px;
@@ -152,7 +156,37 @@ main {
        font-weight: 700;
 }
 
-.what-i-do{
+/* Skills Related Styles*/
+.what-i-do {
        padding: 30px 150px;
 }
+
+.skills-container {
+       display: flex;
+       gap: 24px;
+}
+
+.skill {
+       border-radius: 5px;
+       background: #FFF;
+       box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+       text-align: justify;
+
+       padding: 30px;
+}
+
+.skill-description {
+       color: var(--dark-03, #757575);
+       font-size: 16px;
+       font-weight: 400;
+       line-height: 28px;
+}
+
+/* Resume Section Styles*/
+.resume-column-title {
+       color: var(--dark-02, #474747);
+       font-size: 30px;
+       font-weight: 700;
+}
+
 /* Footer Section Styles*/
