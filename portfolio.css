@@ -1,0 +1,53 @@
+/*========== Module: 5-2 ==========  */
+
+/* Common Shared Styles */
+* {
+       font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+       color: #FD6E0A;
+}
+
+.btn-primary {
+       border-radius: 5px;
+       background: #FD6E0A;
+       border: 0px;
+       color: white;
+       font-size: 20px;
+       font-weight: 700;
+       padding: 15px 35px;
+}
+
+/* Nav Related Styles*/
+.nav-title {
+       color: var(--dark-01, #181818);
+       font-size: 45px;
+       font-style: normal;
+       font-weight: 800;
+       line-height: normal;
+}
+
+nav {
+       align-items: center;
+       justify-content: space-between;
+       display: flex;
+}
+
+nav > ul {
+       align-items: center;
+       display: flex;
+}
+
+nav li {
+       list-style: none;
+       margin-right: 50px;
+}
+
+nav li a {
+       text-decoration: none;
+       color: var(--dark-02, #474747);
+}
+
+
+/*========== Module: 5-3 ==========  */
